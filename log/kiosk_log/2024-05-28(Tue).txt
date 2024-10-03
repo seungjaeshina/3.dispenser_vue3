@@ -1,0 +1,2 @@
+siteinfo / groupinfo / areainfo / boxno / current time / menuno / menuname / paramvalue 
+testsite-testgroup-testarea-testboxno=19:6:16 menu 택배발송 
