@@ -1,0 +1,28 @@
+.v-btn,
+.v-radio,
+.v-checkbox,
+.v-file {
+  &.size {
+    &-ss {
+      font-size: 0.75rem;
+    }
+
+    &-s {
+      font-size: 0.875rem;
+    }
+
+    &-m {
+      font-size: 1rem;
+    }
+
+    &-l {
+      font-size: 1.5rem;
+    }
+
+    &-basic {
+      font-size: 1rem;
+      min-width: 120px;
+      height: 40px;
+    }
+  }
+}

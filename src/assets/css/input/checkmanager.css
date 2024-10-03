@@ -1,0 +1,336 @@
+/* main.css  */
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*************************************************************/
+/*************************************************************/
+.wrap {
+  background: transparent url('../../images/bg.png') 0% 0% no-repeat padding-box;
+  width: 800px;
+  height: 1280px;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+}
+.wrapper {
+background-image: url('../../images/common/bg.png');
+width: 800px;
+height: 1280px;
+top: 0px;
+left: 0px;
+position: fixed;
+}
+
+
+
+/*************************************************************/
+/*************************************************************/
+.header {
+width: 800px;
+top:0px;
+height:170px;
+display: flex;
+flex-direction: row;
+background: transparent url('../../images/head_box.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.main_logo {
+margin-top: 0px;
+margin-left: 0px;
+width: 237px;
+height: 170px;
+background: transparent url('../../images/sub_logo.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.header_title {
+width: 800px;
+height: 170px;
+margin-top:50px;
+display: flex;
+flex-direction: column;
+}
+
+.header_title_down {
+margin-top:0px;
+margin-left:70px;
+height: 50px;
+width: 300px;
+color:#ffffff;
+font-size: 40px;
+text-align: center;
+}
+
+.back {
+margin-top: 0px;
+margin-left:auto;
+width: 239px;
+height: 170px;
+background: transparent url('../../images/btn_back.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.checkmanager_container {
+  width: 800px;
+  height:100%;
+  margin-top: 0px;
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+}
+
+
+/*************************************************************/
+/*************************************************************/
+.checkmanager_area {
+  width: 70%;
+  height: 30%;
+  margin-top:200px;
+  margin-left:13%;
+  display: inline-block;
+  line-height: 50%;
+  position: relative;
+  text-align: center;
+}
+
+.check_column_info {
+  width: 800px;
+  height:auto;
+  margin-top: 80px;
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: row;
+}
+.checkmanager_label {
+  width: 20%;
+  height: 72px;
+  display: inline-block;
+  line-height: 72px;
+  position: relative;
+  left: 100px;
+  color:#ffffff;
+  background: transparent url('../../images/label_box.png') 0% 0% no-repeat padding-box;
+  text-align: center;
+  font-size: 25px;
+}
+.checkmanager_input {
+  width: 50%;
+  height: 72px;
+  display: inline-block;
+  line-height: 72px;
+  margin-left: 100px;
+  margin-top: 0px;
+  background: transparent url('../../images/input_box.png') 0% 0% no-repeat padding-box;
+  font-size: 34px;
+  padding-left: 8px;
+  color: #000000;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  text-align: left;
+}
+.keyboardzone {
+  position : fixed;
+  bottom : 0;
+  display: block;
+  background: #bfbfbf;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.keyboardzone * {
+  transition: all 0ms;
+}
+
+.keyboardzone table th {
+  border: 1px solid #2f2f2f3d;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #eeeeeec4;
+  transition: background-color 500ms;
+  box-shadow: 0 0 7px 0px #00000033;
+  border-radius: 5px;
+}
+
+.keyboardzone table th:active {
+  background-color: #ffffff;
+  transition: background-color 0ms;
+}
+
+.phonepad_info {
+  width: 800px;
+  height: 800px;
+  margin-top: 50px;
+  margin-left: 20%;
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+}
+.pad_num {
+  margin-top: 10px;
+  margin-left: 0px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: row;
+}
+
+.num1 {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 142px;
+  height: 122px;
+  /* UI Properties */
+  background: transparent url(../../images/1.png) 0% 0% no-repeat padding-box;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.num2 {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 142px;
+  height: 122px;
+  /* UI Properties */
+  background: transparent url(../../images/2.png) 0% 0% no-repeat padding-box;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.num3 {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 142px;
+  height: 122px;
+  /* UI Properties */
+  background: transparent url(../../images/3.png) 0% 0% no-repeat padding-box;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.num4 {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 142px;
+  height: 122px;
+  /* UI Properties */
+  background: transparent url(../../images/4.png) 0% 0% no-repeat padding-box;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.num5 {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 142px;
+  height: 122px;
+  /* UI Properties */
+  background: transparent url(../../images/5.png) 0% 0% no-repeat padding-box;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.num6 {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 142px;
+  height: 122px;
+  /* UI Properties */
+  background: transparent url(../../images/6.png) 0% 0% no-repeat padding-box;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.num7 {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 142px;
+  height: 122px;
+  /* UI Properties */
+  background: transparent url(../../images/7.png) 0% 0% no-repeat padding-box;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.num8 {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 142px;
+  height: 122px;
+  /* UI Properties */
+  background: transparent url(../../images/8.png) 0% 0% no-repeat padding-box;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.num9 {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 142px;
+  height: 122px;
+  /* UI Properties */
+  background: transparent url(../../images/9.png) 0% 0% no-repeat padding-box;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.num0 {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 142px;
+  height: 122px;
+  /* UI Properties */
+  background: transparent url(../../images/0.png) 0% 0% no-repeat padding-box;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.num_back {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 142px;
+  height: 122px;
+  /* UI Properties */
+  background: transparent url(../../images/back.png) 0% 0% no-repeat padding-box;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.numconfirm {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 142px;
+  height: 122px;
+/*    width: 316px;
+  height: 122px;*/
+  /* UI Properties */
+  background: transparent url(../../images/num_confirm.png) 0% 0% no-repeat padding-box;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.checkmanager_ment {
+  width: 100%;
+  height: 124px;
+  position : fixed;
+  bottom : 124px;
+  background: transparent url('../../images/ment_memberno.png') 0% 0% no-repeat padding-box;
+  text-align: center;
+}
+
+.checkmanager_tail {
+  width: 800px;
+  position : fixed;
+  bottom : 0;
+  height:124px;
+  cursor: pointer;
+  background: transparent url('../../images/easy_receipt_done.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+

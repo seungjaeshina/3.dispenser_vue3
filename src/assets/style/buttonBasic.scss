@@ -1,0 +1,201 @@
+@import 'colors.scss';
+@import 'buttonColors.scss';
+
+.v-btn,
+.v-file {
+  &.basic {
+    padding: 0.5em 1em 0.5em;
+    transition: all .1s ease-in-out;
+
+    &:not(:disabled):not(.disabled):hover {
+      opacity: 0.8;
+    }
+
+    &.color {
+      &-blue {
+        &:not(:disabled):not(.disabled):hover {
+          background-color: $blue700;
+          opacity: 1;
+        }
+      }
+
+      &-green {
+        &:not(:disabled):not(.disabled):hover {
+          background-color: $green700;
+          opacity: 1;
+        }
+      }
+
+      &-orange {
+        &:not(:disabled):not(.disabled):hover {
+          background-color: $orange600;
+          opacity: 1;
+        }
+      }
+
+      &-yellow {
+        &:not(:disabled):not(.disabled):hover {
+          background-color: $yellow600;
+          opacity: 1;
+        }
+      }
+
+      &-red {
+        &:not(:disabled):not(.disabled):hover {
+          background-color: $red700;
+          opacity: 1;
+        }
+      }
+
+      &-white {
+        &:not(:disabled):not(.disabled):hover {
+          background-color: $gray100;
+          opacity: 1;
+        }
+      }
+
+      &-black {
+        &:not(:disabled):not(.disabled):hover {
+          background-color: $gray700;
+          color: $white;
+          opacity: 1;
+        }
+      }
+
+      &-white-blue {
+        &:not(:disabled):not(.disabled):hover {
+          background-color: $gray100;
+          opacity: 1;
+        }
+      }
+
+      &-file {
+        &:not(:disabled):not(.disabled):hover {
+          background: linear-gradient(to bottom, $gray100 1%, $gray200);
+          opacity: 1;
+        }
+      }
+
+      &-cyan {
+        &:not(:disabled):not(.disabled):hover {
+          background-color: $cyan600;
+          opacity: 1;
+        }
+      }
+
+      &-navy {
+        &:not(:disabled):not(.disabled):hover {
+          background-color: $blue800;
+          opacity: 1;
+        }
+      }
+
+      &-lightblue {
+        &:not(:disabled):not(.disabled):hover {
+          background-color: $lightblue700;
+          opacity: 1;
+        }
+      }
+
+      &-lightsalmon {
+        &:not(:disabled):not(.disabled):hover {
+          background-color: $orange100;
+          opacity: 1;
+        }
+      }
+
+      &-lightgray {
+        &:not(:disabled):not(.disabled):hover {
+          background-color: $gray300;
+          opacity: 1;
+        }
+      }
+
+      &-white-border {
+        @for $i from 1 to 6 {
+          &-#{$i} {
+            &:not(:disabled):not(.disabled):hover {
+              background-color: hsla(0, 0%, 100%, .5);
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      &-white-border-blue {
+        @for $i from 1 to 6 {
+          &-#{$i} {
+            &:not(:disabled):not(.disabled):hover {
+              background-color: $white;
+              color: $blue500;
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      &-gray-border {
+        @for $i from 1 to 6 {
+          &-#{$i} {
+            &:not(:disabled):not(.disabled):hover {
+              background-color: $gray100;
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      &-blue-border {
+        @for $i from 1 to 6 {
+          &-#{$i} {
+            &:not(:disabled):not(.disabled):hover {
+              background-color: $blue500;
+              color: $white;
+              box-shadow: 0 0 0 3px $blue500 inset;
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      &-green-border {
+        @for $i from 1 to 6 {
+          &-#{$i} {
+            &:not(:disabled):not(.disabled):hover {
+              background-color: $green700;
+              color: $white;
+              box-shadow: 0 0 0 3px $green700 inset;
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      &-orange-border {
+        @for $i from 1 to 6 {
+          &-#{$i} {
+            &:not(:disabled):not(.disabled):hover {
+              background-color: $orange600;
+              color: $white;
+              box-shadow: 0 0 0 3px $orange600 inset;
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      &-yellow-border {
+        @for $i from 1 to 6 {
+          &-#{$i} {
+            &:not(:disabled):not(.disabled):hover {
+              background-color: $yellow600;
+              color: $white;
+              box-shadow: 0 0 0 3px $yellow600 inset;
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+﻿[
+	{
+		"receipt_date":"08-05",
+		"receipt_yoil":"(월)",
+		"receipt_user":"홍길동1",
+		"receipt_phoneno":"010-111-1111",
+		"receipt_addr":"서울 마포구 창전로 70",
+		"receipt_size":"50Kg / 26",
+		"receipt_check":"0"
+		},
+	{
+		"receipt_date":"08-05",
+		"receipt_yoil":"(월)",
+		"receipt_user":"홍길동2",
+		"receipt_phoneno":"010-222-2222",
+		"receipt_addr":"서울 마포구 창전로 71",
+		"receipt_size":"50Kg / 26",
+		"receipt_check":"0"
+		},
+	{
+		"receipt_date":"08-05",
+		"receipt_yoil":"(월)",
+		"receipt_user":"홍길동3",
+		"receipt_phoneno":"010-333-3333",
+		"receipt_addr":"서울 마포구 창전로 72",
+		"receipt_size":"50Kg / 26",
+		"receipt_check":"0"
+		},
+	{
+		"receipt_date":"08-05",
+		"receipt_yoil":"(월)",
+		"receipt_user":"홍길동4",
+		"receipt_phoneno":"010-444-4444",
+		"receipt_addr":"서울 마포구 창전로 73",
+		"receipt_size":"50Kg / 26",
+		"receipt_check":"0"
+		}
+]

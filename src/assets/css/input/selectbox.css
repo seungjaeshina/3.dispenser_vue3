@@ -1,0 +1,1832 @@
+/* main.css  */
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*************************************************************/
+/*************************************************************/
+.wrap {
+  background: transparent url('../../images/bg.png') 0% 0% no-repeat padding-box;
+  width: 800px;
+  height: 1280px;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+}
+.wrapper {
+background-image: url('../../images/common/bg.png');
+width: 800px;
+height: 1280px;
+top: 0px;
+left: 0px;
+position: fixed;
+}
+
+
+
+/*************************************************************/
+/*************************************************************/
+.header {
+width: 800px;
+top:0px;
+height:170px;
+display: flex;
+flex-direction: row;
+background: transparent url('../../images/head_box.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.main_logo {
+margin-top: 0px;
+margin-left: 0px;
+width: 237px;
+height: 170px;
+background: transparent url('../../images/sub_logo.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.header_title {
+width: 800px;
+height: 170px;
+margin-top:50px;
+display: flex;
+flex-direction: column;
+}
+
+.header_title_down {
+margin-top:0px;
+height: 50px;
+width: 600px;
+color:#ffffff;
+font-size: 45px;
+text-align: center;
+}
+
+.back {
+margin-top: 0px;
+margin-left:auto;
+width: 239px;
+height: 170px;
+background: transparent url('../../images/btn_back.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.selectbox_container {
+  width: 800px;
+  height:100%;
+  margin-top: 0px;
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+}
+
+
+/*************************************************************/
+/*************************************************************/
+.selectbox_area {
+  margin-top: 0px;
+  margin-left: 0px;
+  position : fixed;
+  width: 100%;
+  height: 1700px;
+  text-align: center;
+  background-color: #ffffff;
+  background: transparent url('../../images/dispenser.png') 0% 0% no-repeat padding-box;
+}
+
+.selectbox_101_full {
+  margin-top: 220px;
+  margin-left: 90px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.selectbox_101_empty {
+  margin-top: 220px;
+  margin-left: 90px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#000000;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.selectbox_101 {
+  margin-top: 220px;
+  margin-left: 90px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.selectbox_1010 {
+  margin-top: 220px;
+  margin-left: 90px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#000000;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.selectbox_102 {
+  margin-top: 220px;
+  margin-left: 195px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.selectbox_102_full {
+  margin-top: 220px;
+  margin-left: 195px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.selectbox_102_empty {
+  margin-top: 220px;
+  margin-left: 195px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#000000;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.selectbox_103 {
+  margin-top: 220px;
+  margin-left: 300px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  cursor: pointer;
+  font-size: 30px;
+  text-align: center;
+}
+.selectbox_104 {
+  margin-top: 220px;
+  margin-left: 410px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.selectbox_105 {
+  margin-top: 220px;
+  margin-left: 515px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.selectbox_106 {
+  margin-top: 220px;
+  margin-left: 620px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.selectbox_107 {
+  margin-top: 220px;
+  margin-left: 730px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.selectbox_108 {
+  margin-top: 220px;
+  margin-left: 835px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.selectbox_109 {
+  margin-top: 220px;
+  margin-left: 940px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.selectbox_201 {
+  margin-top: 370px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_202 {
+  margin-top: 401px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.selectbox_203 {
+  margin-top: 434px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.selectbox_204 {
+  margin-top: 467px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_205 {
+  margin-top: 500px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_206 {
+  margin-top: 533px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.selectbox_207 {
+  margin-top: 566px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_208 {
+  margin-top: 599px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_209 {
+  margin-top: 631px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_210 {
+  margin-top: 664px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_211 {
+  margin-top: 697px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_212 {
+  margin-top: 730px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.selectbox_221 {
+  margin-top: 370px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_222 {
+  margin-top: 401px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_223 {
+  margin-top: 434px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_224 {
+  margin-top: 467px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_225 {
+  margin-top: 500px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_226 {
+  margin-top: 533px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_227 {
+  margin-top: 566px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_228 {
+  margin-top: 599px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_229 {
+  margin-top: 631px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_230 {
+  margin-top: 664px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_231 {
+  margin-top: 697px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_232 {
+  margin-top: 730px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.selectbox_261 {
+  margin-top: 370px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_262 {
+  margin-top: 403px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_263 {
+  margin-top: 436px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_264 {
+  margin-top: 469px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_265 {
+  margin-top: 501px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_266 {
+  margin-top: 534px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_267 {
+  margin-top: 567px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_268 {
+  margin-top: 599px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_269 {
+  margin-top: 632px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_270 {
+  margin-top: 665px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_271 {
+  margin-top: 698px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_272 {
+  margin-top: 731px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.selectbox_281 {
+  margin-top: 369px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_282 {
+  margin-top: 402px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_283 {
+  margin-top: 435px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_284 {
+  margin-top: 467px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_285 {
+  margin-top: 500px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_286 {
+  margin-top: 533px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_287 {
+  margin-top: 566px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_288 {
+  margin-top: 599px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_289 {
+  margin-top: 631px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_290 {
+  margin-top: 664px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_291 {
+  margin-top: 697px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_292 {
+  margin-top: 730px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.selectbox_301 {
+  margin-top: 773px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_302 {
+  margin-top: 807px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_303 {
+  margin-top: 840px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_304 {
+  margin-top: 877px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_305 {
+  margin-top: 908px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_306 {
+  margin-top: 941px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_307 {
+  margin-top: 974px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_308 {
+  margin-top: 1007px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_309 {
+  margin-top: 1040px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_310 {
+  margin-top: 1073px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_311 {
+  margin-top: 1106px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_312 {
+  margin-top: 1139px;
+  margin-left: 115px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.selectbox_321 {
+  margin-top: 773px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_322 {
+  margin-top: 806px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_323 {
+  margin-top: 839px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_324 {
+  margin-top: 872px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_325 {
+  margin-top: 905px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_326 {
+  margin-top: 938px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_327 {
+  margin-top: 971px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_328 {
+  margin-top: 1004px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_329 {
+  margin-top: 1037px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_330 {
+  margin-top: 1070px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_331 {
+  margin-top: 1103px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_332 {
+  margin-top: 1136px;
+  margin-left: 270px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.selectbox_341 {
+  margin-top: 773px;
+  margin-left: 522px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_342 {
+  margin-top: 806px;
+  margin-left: 522px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_343 {
+  margin-top: 839px;
+  margin-left: 522px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_344 {
+  margin-top: 872px;
+  margin-left: 522px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_345 {
+  margin-top: 905px;
+  margin-left: 522px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_346 {
+  margin-top: 938px;
+  margin-left: 522px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_347 {
+  margin-top: 971px;
+  margin-left: 522px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_348 {
+  margin-top: 1004px;
+  margin-left: 522px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_349 {
+  margin-top: 1037px;
+  margin-left: 522px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_350 {
+  margin-top: 1070px;
+  margin-left: 522px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_351 {
+  margin-top: 1103px;
+  margin-left: 522px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_352 {
+  margin-top: 1136px;
+  margin-left: 522px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.selectbox_361 {
+  margin-top: 773px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_362 {
+  margin-top: 806px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_363 {
+  margin-top: 839px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_364 {
+  margin-top: 872px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_365 {
+  margin-top: 905px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_366 {
+  margin-top: 938px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_367 {
+  margin-top: 971px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_368 {
+  margin-top: 1004px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_369 {
+  margin-top: 1037px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_370 {
+  margin-top: 1070px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_371 {
+  margin-top: 1103px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_372 {
+  margin-top: 1136px;
+  margin-left: 765px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.selectbox_381 {
+  margin-top: 773px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_382 {
+  margin-top: 806px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_383 {
+  margin-top: 839px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_384 {
+  margin-top: 872px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_385 {
+  margin-top: 905px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_386 {
+  margin-top: 938px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_387 {
+  margin-top: 971px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_388 {
+  margin-top: 1004px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_389 {
+  margin-top: 1037px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_390 {
+  margin-top: 1070px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_391 {
+  margin-top: 1103px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_392 {
+  margin-top: 1136px;
+  margin-left: 920px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.selectbox_401 {
+  margin-top: 1183px;
+  margin-left: 195px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_402 {
+  margin-top: 1216px;
+  margin-left: 195px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_403 {
+  margin-top: 1249px;
+  margin-left: 195px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_404 {
+  margin-top: 1282px;
+  margin-left: 195px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_405 {
+  margin-top: 1315px;
+  margin-left: 195px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_406 {
+  margin-top: 1348px;
+  margin-left: 195px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_407 {
+  margin-top: 1381px;
+  margin-left: 195px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_408 {
+  margin-top: 1414px;
+  margin-left: 195px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_409 {
+  margin-top: 1447px;
+  margin-left: 195px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.selectbox_441 {
+  margin-top: 1180px;
+  margin-left: 525px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_442 {
+  margin-top: 1213px;
+  margin-left: 525px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_443 {
+  margin-top: 1246px;
+  margin-left: 525px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_444 {
+  margin-top: 1279px;
+  margin-left: 525px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_445 {
+  margin-top: 1312px;
+  margin-left: 525px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_446 {
+  margin-top: 1345px;
+  margin-left: 525px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_447 {
+  margin-top: 1378px;
+  margin-left: 525px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_448 {
+  margin-top: 1411px;
+  margin-left: 525px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_449 {
+  margin-top: 1444px;
+  margin-left: 525px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.selectbox_481 {
+  margin-top: 1182px;
+  margin-left: 842px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_482 {
+  margin-top: 1215px;
+  margin-left: 842px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_483 {
+  margin-top: 1248px;
+  margin-left: 842px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_484 {
+  margin-top: 1281px;
+  margin-left: 842px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_485 {
+  margin-top: 1314px;
+  margin-left: 842px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_486 {
+  margin-top: 1347px;
+  margin-left: 842px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_487 {
+  margin-top: 1380px;
+  margin-left: 842px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_488 {
+  margin-top: 1413px;
+  margin-left: 842px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectbox_489 {
+  margin-top: 1446px;
+  margin-left: 842px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+
+.selectbox_501 {
+  margin-top: 1516px;
+  margin-left: 202px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.selectbox_502 {
+  margin-top: 1516px;
+  margin-left: 522px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.selectbox_503 {
+  margin-top: 1516px;
+  margin-left: 845px;
+  position : fixed;
+  width: 50px;
+  height: 40px;
+  color:#ffffff;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.selectbox_bottom {
+  width: 100%;
+  height: 124px;
+  position : fixed;
+  bottom : 0px;
+  display: flex;
+  flex-direction: row;
+  }
+
+.selectbox_ment {
+  width: 100%;
+  height: 124px;
+  position : fixed;
+  bottom : 0px;
+  background: transparent url('../../images/ment_close_box.png') 0% 0% no-repeat padding-box;
+  text-align: center;
+}
+
+.selectbox_rescan {
+  width: 216px;
+  height: 124px;
+  left:0px;
+  position : fixed;
+  bottom : 0px;
+  text-align: center;
+  background: transparent url('../../images/autoselect.png') 0% 0% no-repeat padding-box;
+}
+
+.selectbox_done {
+  width: 216px;
+  height: 124px;
+  right:0px;
+  position : fixed;
+  bottom : 0px;
+  background: transparent url('../../images/input_close.png') 0% 0% no-repeat padding-box;
+  text-align: center;
+}
+

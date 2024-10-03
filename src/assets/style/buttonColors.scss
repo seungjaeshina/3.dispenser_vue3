@@ -1,0 +1,209 @@
+@import 'colors.scss';
+
+.v-btn,
+.v-file {
+  &.color {
+    &-primary,
+    &-primary.press .slot-wrapper {
+      background-color: #0069d9;
+      color: $white;
+    }
+
+    &-secondary,
+    &-secondary.press .slot-wrapper {
+      background-color: #6c757d;
+      color: $white;
+    }
+
+    &-success,
+    &-success.press .slot-wrapper {
+      background-color: #28a745;
+      color: $white;
+    }
+
+    &-danger,
+    &-danger.press .slot-wrapper {
+      background-color: #c82333;
+      color: $white;
+    }
+
+    &-warning,
+    &-warning.press .slot-wrapper {
+      background-color: #ffc107;
+      color: $white;
+    }
+
+    &-info,
+    &-info.press .slot-wrapper {
+      background-color: #17a2b8;
+      color: $white;
+    }
+
+    &-light,
+    &-light.press .slot-wrapper {
+      background-color: #f8f9fa;
+      color: #343a40;
+    }
+
+    &-dark,
+    &-dark.press .slot-wrapper {
+      background-color: #343a40;
+      color: $white;
+    }
+
+    &-blue,
+    &-blue.press .slot-wrapper {
+      background-color: $blue500;
+      color: $white;
+    }
+
+    &-green,
+    &-green.press .slot-wrapper {
+      background-color: $green400;
+      color: $white;
+    }
+
+    &-orange,
+    &-orange.press .slot-wrapper {
+      background-color: $orange400;
+      color: $white;
+    }
+
+    &-yellow,
+    &-yellow.press .slot-wrapper {
+      background-color: $yellow400;
+      color: $white;
+    }
+
+    &-red,
+    &-red.press .slot-wrapper {
+      background-color: $red400;
+      color: $white;
+    }
+
+    &-white,
+    &-white.press .slot-wrapper {
+      background-color: $white;
+      color: $gray900;
+    }
+
+    &-black,
+    &-black.press .slot-wrapper {
+      background-color: $gray900;
+      color: $white;
+    }
+
+    &-white-blue,
+    &-white-blue.press .slot-wrapper {
+      background-color: $white;
+      color: $blue500;
+    }
+
+    &-file,
+    &-file.press .slot-wrapper {
+      background: linear-gradient(to bottom, $white 1%, $gray100);
+      color: $gray900;
+      box-shadow: 0 0 0 0.5px $gray300 inset;
+    }
+
+    &-cyan,
+    &-cyan.press .slot-wrapper {
+      background-color: $cyan300;
+      color: $white;
+    }
+
+    &-navy,
+    &-navy.press .slot-wrapper {
+      background-color: $blue900;
+      color: $white;
+    }
+
+    &-lightblue,
+    &-lightblue.press .slot-wrapper {
+      background-color: $lightblue400;
+      color: $white;
+    }
+
+    &-lightsalmon,
+    &-lightsalmon.press .slot-wrapper {
+      background-color: $orange50;
+      color: $orange400;
+    }
+
+    &-lightgray,
+    &-lightgray.press .slot-wrapper {
+      background-color: $gray100;
+      color: $gray500;
+    }
+
+    &-white-border {
+      @for $i from 1 to 6 {
+        &-#{$i} {
+          background-color: transparent;
+          color: $white;
+          box-shadow: 0 0 0 #{$i}px $white inset;
+        }
+      }
+    }
+
+    &-white-border-blue {
+      @for $i from 1 to 6 {
+        &-#{$i} {
+          background-color: transparent;
+          color: $white;
+          box-shadow: 0 0 0 #{$i}px $white inset;
+        }
+      }
+    }
+
+    &-gray-border {
+      @for $i from 1 to 6 {
+        &-#{$i} {
+          background-color: $white;
+          color: $gray900;
+          box-shadow: 0 0 0 #{$i}px $gray300 inset;
+        }
+      }
+    }
+
+    &-blue-border {
+      @for $i from 1 to 6 {
+        &-#{$i} {
+          background-color: $white;
+          color: $blue500;
+          box-shadow: 0 0 0 #{$i}px $blue500 inset;
+        }
+      }
+    }
+
+    &-green-border {
+      @for $i from 1 to 6 {
+        &-#{$i} {
+          background-color: $white;
+          color: $green400;
+          box-shadow: 0 0 0 #{$i}px $green400 inset;
+        }
+      }
+    }
+
+    &-orange-border {
+      @for $i from 1 to 6 {
+        &-#{$i} {
+          background-color: $white;
+          color: $orange400;
+          box-shadow: 0 0 0 #{$i}px $orange400 inset;
+        }
+      }
+    }
+
+    &-yellow-border {
+      @for $i from 1 to 6 {
+        &-#{$i} {
+          background-color: $white;
+          color: $yellow400;
+          box-shadow: 0 0 0 #{$i}px $yellow400 inset;
+        }
+      }
+    }
+  }
+}

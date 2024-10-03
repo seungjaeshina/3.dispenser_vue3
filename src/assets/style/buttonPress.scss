@@ -1,0 +1,43 @@
+@import 'colors.scss';
+@import 'buttonColors.scss';
+
+.v-btn {
+  &.press {
+    padding: 0;
+    border-radius: 10px;
+    transition: all .1s ease-in-out;
+    box-shadow: 0 3px rgba(128, 128, 128, 1),
+    0 4px rgba(118, 118, 118, 1),
+    0 5px rgba(108, 108, 108, 1),
+    0 6px rgba(98, 98, 98, 1),
+    0 7px rgba(88, 88, 88, 1),
+    0 8px rgba(78, 78, 78, 1),
+    0 14px 6px -1px rgba(128, 128, 128, 1);
+
+    &:not(:disabled):not(.disabled):not(.loading) {
+      background-color: transparent;
+    }
+
+    .slot-wrapper {
+      border-radius: 10px;
+      transition: all .1s ease-in-out;
+      padding: 0.3em 1em 0.4em;
+      box-shadow: inset 0 0 0.3em 0 rgba(0, 0, 0, .1);
+      box-sizing: border-box;
+    }
+
+    &:active {
+      box-shadow: 0 3px rgba(128, 128, 128, 1),
+      0 4px rgba(118, 118, 118, 1),
+      0 5px rgba(108, 108, 108, 1),
+      0 6px rgba(98, 98, 98, 1),
+      0 7px rgba(88, 88, 88, 1),
+      0 8px rgba(78, 78, 78, 1),
+      0 10px 2px 0 rgba(128, 128, 128, .6);
+
+      .slot-wrapper {
+        transform: translate(0, 5px);
+      }
+    }
+  }
+}

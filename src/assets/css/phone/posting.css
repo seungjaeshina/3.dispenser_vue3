@@ -1,0 +1,249 @@
+/*************************************************************/
+/*************************************************************/
+.header {
+    width: 800px;
+    top:0px;
+    height:170px;
+    display: flex;
+    flex-direction: row;
+    background: transparent url('../../images/head_box.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+    
+  .main_logo {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 237px;
+    height: 170px;
+    background: transparent url('../../images/sub_logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  
+  .header_title {
+    width: 800px;
+    margin-top:55px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header_title_down {
+    margin : 0 auto;
+    width: 600px;
+    height: 50px;
+    color:#ffffff;
+    font-size: 45px;
+    text-align: center;
+    opacity: 1;
+  }
+  
+  .back {
+    margin-top: 0px;
+    margin-left:auto;
+    width: 239px;
+    height: 170px;
+    background: transparent url('../../images/btn_back.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  
+  .posting_container {
+    width: 800px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .posting_area {
+    width: 800px;
+    height: 500px;
+    display: inline-block;
+    line-height: 500px;
+    margin-left: 0%;
+    margin-top: 20%;
+    cursor: pointer;
+    border-radius: 12px;
+    opacity: 1;
+  }
+  
+  .posting_ex_area {
+    width: 800px;
+    height: 300px;
+    display: inline-block;
+    line-height: 300px;
+    margin-left: 25%;
+    margin-top: 20%;
+    cursor: pointer;
+    border-radius: 12px;
+    background: transparent url('../../images/phone_inputing_ex01.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  
+  .posting_tail {
+    width: 800px;
+    height: 170px;
+    position : fixed;
+    bottom : 0%;
+    display: flex;
+    cursor: pointer;
+    background: transparent url('../../images/btn_done.png') 0% 0% no-repeat padding-box;
+  }
+
+/* 모달창 */
+
+/* isModal을 사용할때 쓰면 됨 */
+/* .modal-on{
+    display: block !important;
+} */
+.modal{
+    display: none;
+	background-color: rgba(0,0,0,0.4);
+	/* width:100%; */
+    width: 800px;
+	height: 100%;
+	position: fixed;
+	left: 50%;
+	top:0;
+    transform: translateX(-50%);
+	padding-top: 100px;
+	z-index: 99;
+}
+.modal .modal-content{
+    /* border: 1px solid #000; */
+	border-radius: 20px;
+	width:700px;
+    height: 730px;
+	margin: 0 auto;
+	padding: 30px;
+	background-color: #fff;
+}
+.modal .modal-content .modal-relative{
+    height: 600px;
+    position: relative;
+}
+.modal .modal-content .m-header{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.modal .modal-content .m-body{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    overflow: auto;
+    max-height: 300px;
+}
+.modal .modal-content .m-body table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    /* font-size: 18px; */
+    border: none;
+}
+.modal .modal-content .m-body table tbody{
+    overflow: auto;
+}
+.modal .modal-content .m-body table td{
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.modal .modal-content .m-body table td:first-child{
+    width: 40%;
+}
+.modal .modal-content .m-body table td:nth-child(2){
+    width: 20%;
+}
+.modal .modal-content .m-body table td:nth-child(2) button{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 21px;
+    cursor: pointer;
+    border: none;
+    background-color: #5e2d1a;
+}
+.modal .modal-content .m-body table td:nth-child(2) button:hover{
+    background-color: #FED900;
+    color: #5e2d1a;
+}
+.modal .modal-content .m-body table td:last-child{
+    width: 20%;
+}
+.modal .modal-content .m-body table td:last-child button{
+    border: none;
+    background-color: #5e2d1a;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.modal .modal-content .m-body table td:last-child button:hover{
+    background-color: #FED900;
+    color: #5e2d1a;
+    font-weight: bold;
+}
+
+.m-footer{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+}
+.modal .modal-content .m-footer p{
+    line-height: 90px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 50px;
+    width: 235px;
+}
+.modal .modal-content .m-footer .btnBox{
+    display: flex;
+    justify-content: end;
+}
+.modal .modal-content .m-footer .btnBox button{
+    background-color: #FED900;
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 90px;
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 23px;
+}
+.modal .modal-content .m-footer .btnBox button:hover{
+    color: #fff;
+    background-color: #31160B;
+}
+
+
+/* 모달창2 */
+#modal2{
+  padding-top: 365px;
+}
+#modal2 .modal-content {
+    width: 480px;
+    height: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+#modal2 .modal-content {
+    flex-direction: column;
+}
+#modal2 .modal-content h1{
+    margin-bottom: 30px;
+}
+#modal2 .modal-content button{
+    background-color: #FED900;
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 60px;
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 23px;
+}

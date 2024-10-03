@@ -1,0 +1,231 @@
+/* main.css  */
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*************************************************************/
+/*************************************************************/
+.wrap {
+  background: transparent url('../../images/bg.png') 0% 0% no-repeat padding-box;
+  width: 800px;
+  height: 1280px;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+}
+.wrapper {
+background-image: url('../../images/common/bg.png');
+width: 800px;
+height: 1280px;
+top: 0px;
+left: 0px;
+position: fixed;
+}
+
+
+
+/*************************************************************/
+/*************************************************************/
+.header {
+width: 800px;
+top:0px;
+height:170px;
+display: flex;
+flex-direction: row;
+background: transparent url('../../images/head_box.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.main_logo {
+margin-top: 0px;
+margin-left: 0px;
+width: 237px;
+height: 170px;
+background: transparent url('../../images/sub_logo.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.header_title {
+width: 800px;
+height: 170px;
+margin-top:50px;
+display: flex;
+flex-direction: column;
+}
+
+.header_title_down {
+margin-top:0px;
+height: 50px;
+width: 600px;
+color:#ffffff;
+font-size: 45px;
+text-align: center;
+}
+
+.back {
+margin-top: 0px;
+margin-left:auto;
+width: 239px;
+height: 170px;
+background: transparent url('../../images/btn_back.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.juminback_container {
+  width: 800px;
+  height:100%;
+  margin-top: 0px;
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+}
+
+
+/*************************************************************/
+/*************************************************************/
+.juminback_area {
+  margin-top: 0px;
+  margin-left: 0px;
+  text-align: center;
+  display: flex;
+  cursor: pointer;
+  background-color: #ffffff;
+  flex-direction: column;
+}
+
+.juminback_idcard {
+  margin-top: 00px;
+  margin-left: 0%;
+  text-align: center;
+  width: 800px;
+  height: 800px;
+  background: transparent url('../../images/juminback.png') 0% 0% no-repeat padding-box;
+  cursor: pointer;
+}
+
+.juminback_info {
+  margin-top: 100px;
+  margin-left: 0px;
+  text-align: center;
+  display: flex;
+  cursor: pointer;
+  background-color: #ffffff;
+  flex-direction: column;
+}
+.juminback_column_info {
+  width: 800px;
+  margin-top: 40px;
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: row;
+}
+.juminback_label {
+  width: 20%;
+  height: 72px;
+  display: inline-block;
+  line-height: 72px;
+  position: relative;
+  left: 100px;
+  color:#ffffff;
+  text-align: center;
+  font-size: 25px;
+  background: transparent url('../../images/label_box.png') 0% 0% no-repeat padding-box;
+}
+
+.juminback_input {
+  width: 60%;
+  height: 70px;
+  display: inline-block;
+  line-height: 70px;
+  margin-left: 102px;
+  margin-top: 0px;
+  font-size: 34px;
+  font-weight: bold;
+  cursor: pointer;
+  background: transparent url('../../images/input_box.png') 0% 0% no-repeat padding-box;
+  object-fit: cover;
+  padding-left: 10px;
+}
+
+.juminback_input:focus{
+  border-color: #FF0000;
+  transition: .5s;
+}
+
+.juminback_input_short {
+  width: 50%;
+  height: 70px;
+  display: inline-block;
+  line-height: 70px;
+  margin-left: 102px;
+  margin-top: 0px;
+  background: transparent url('../../images/input_short_box.png') 0% 0% no-repeat padding-box ;
+  background-size: cover;
+  font-size: 34px;
+  padding-left: 4px;
+  color: #000000;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  text-align: left;
+}
+.juminback_button {
+  width:9%;
+  height: 62px;
+  display: inline-block;
+  line-height: 62px;
+  cursor: pointer;
+  text-align: center;
+  color:#ffffff;
+  margin-left:8px;
+  background: transparent url('../../images/label_box.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  font-size: 25px;
+  padding:5px;
+}
+
+
+.juminback_ment {
+  width: 100%;
+  height: 124px;
+  width: 100%;
+  height: 124px;
+  position : fixed;
+  bottom : 170px;
+  background: transparent url('../../images/ment_jumin_back.png') 0% 0% no-repeat padding-box;
+  text-align: center;
+}
+
+.juminback_tail {
+  width: 800px;
+  position : fixed;
+  bottom : 0;
+  height:124px;
+  cursor: pointer;
+  background: transparent url('../../images/scanstart.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.juminback_rescan {
+  width: 216px;
+  height:124px;
+  position : fixed;
+  bottom : 0;
+  left:0px;
+  cursor: pointer;
+  background: transparent url('../../images/scanstart.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.juminback_done {
+  width: 216px;
+  height:124px;
+  position : fixed;
+  bottom : 0;
+  right:0px;
+  cursor: pointer;
+  background: transparent url('../../images/scandone.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
